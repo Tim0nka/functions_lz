@@ -1,13 +1,17 @@
 #Создаём функцию
 def chet(x):
-    d = x % 2
-    if d == 0:
-        print("Четное")
+    if x%2 == 0:
+        print("Четная")
     else:
-        print("Не четное")
-
+        print("Не четная")
 
 #Передаём значение функции
-y = int(input('Введите число: '))
+r = ((input('Введите число: ')))
+print(r)
+r = r.split('.')
+r = r[0]
+print(r)
+r = int(r[-1])
+print(r)
 #Вызываем функцию
-chet(y)
+chet(r)
