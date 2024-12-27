@@ -9,7 +9,7 @@ def sum(b: str) -> int:
 
 
 #Делаем ввод
-user_input = str(input('Введите список чисел: '))
+user_input = str(input('Введите число: '))
 
 
 #Делаем вывод

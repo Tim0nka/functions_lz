@@ -8,7 +8,13 @@ user_input = user_input.split()
 
 #Создаём функции
 def f_max(b: list) -> int:
-    return max(b)
+    maxim = int(b[0])
+    for i in b:
+        i = int(i)
+        if i > maxim:
+            maxim = i
+
+    return maxim
 
 def f_min(b: list) -> int:
     return min(b)
